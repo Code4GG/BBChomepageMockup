@@ -2,10 +2,13 @@
 <html>
 <head>
 	<title>BBC Homepage</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -19,8 +22,15 @@
 		<header>
 		<nav class="nav">
 			<ul>
-				<li><a href="index.html">BBC</a></li>
-				<li class="signin"><a href="signin.html">Sign in</a></li>
+				<li class='badge badge-default logo'>
+					<a href="index.html">
+						<span class="badge badge-light">B</span>
+						<span class="badge badge-light">B</span>
+						<span class="badge badge-light">C</span>
+					</a>
+				</li>
+				<li class="signin"><a href="signin.html">
+				<i class="fa fa-user-circle-o mx-2" aria-hidden="true"></i>Sign in</a></li>
 				<li class="home"><a href="index.html">Home</a></li>
 				<li class="news"><a href="news.html">News</a></li>
 				<li class="sport"><a href="sport.html">Sport</a></li>
@@ -30,7 +40,10 @@
 				<li class="travel"><a href="travel.html">Travel</a></li>
 				<li class="capital"><a href="capital.html">Capital</a></li>
 				<li class="more"><a href="more.html">More</a></li>
-				<li><input type="text" name="search" placeholder="Search"></li>
+				<li>
+					<input type="text" name="search" placeholder="Search">
+						<i class="fa fa-search bg-light px-1 py-1" aria-hidden="true"></i>
+					</li>
 			</ul>
 		</nav>
 		</header>
@@ -44,7 +57,6 @@
 	</div>
 
 <!--anchors tags have to be added to the h4's in this list-->
-
 	<div class="row toprow">
 		<div class="col-md-6">
 			<div class="maintitle">
@@ -54,8 +66,43 @@
 			</div>
 			<img src="http://lorempixel.com/400/200">
 		</div>
-		<div class="col-md-3">
-			<div class="row1title">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row1title">
+						<h3>The football fan who got an honnorary draft into the nfl</h3>
+						<h4>NEWSBEAT</h4>
+					</div>
+					<img src="http://lorempixel.com/400/200">
+				</div>
+				<div class="col-md-6">
+					<div class="row1title">
+						<h3>The football fan who got an honnorary draft into the nfl</h3>
+						<h4>NEWSBEAT</h4>
+					</div>
+					<img src="http://lorempixel.com/400/200">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row1title">
+						<h3>The football fan who got an honnorary draft into the nfl</h3>
+						<h4>NEWSBEAT</h4>
+					</div>
+					<img src="http://lorempixel.com/400/200">
+				</div>
+				<div class="col-md-6">
+					<div class="row1title">
+						<h3>The football fan who got an honnorary draft into the nfl</h3>
+						<h4>NEWSBEAT</h4>
+					</div>
+					<img src="http://lorempixel.com/400/200">
+				</div>
+			</div>
+		</div>	
+	</div>	
+		
+		<!-- 	<div class="row1title">
 			<h3>White colar tennis club opens</h3>
 			<h4>Rich stuff</h4>
 			</div>
@@ -79,15 +126,16 @@
 			</div>
 			<img src="http://lorempixel.com/400/200">
 		</div>
-	</div>
+	</div> -->
 
 	<!--Feel free to tweak the advertisement-->
-
-	<div class="row">
+<div class="container">
+	<div class="row ad-top">
 		<div class="col-md-12">
-			<img src="http://img.businessdictionary.com/share-social/terms/advertisement-ad.png">
+			<img src="https://www.adspeed.com/placeholder-800x100.gif"/>
 		</div>
 	</div>
+</div>	
 	<div class="row">
 		<div class="col-md-12">
 			<p class="newstitle">NEWS</p>
@@ -318,16 +366,101 @@
 
 
 
-<!--Footer needs to be adjusted and properly finishes
+<!--Footer needs to be adjusted and properly finishes -->
+<div class="container-footer footer-top bg-light mx-auto">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="subheader">BBC in other languages</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-3">
+					<h2>Persian</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptates molestiae, saepe modi perspiciatis nesciunt, libero illo consectetur alias pariatur facilis quidem dignissimos, totam tempore unde odit itaque. Dolorum, omnis.</p>
+				</div>
+				<div class="col-md-3">
+					<h2>Spanish</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptates molestiae, saepe modi perspiciatis nesciunt, libero illo consectetur alias pariatur facilis quidem dignissimos, totam tempore unde odit itaque. Dolorum, omnis.</p>
+				</div>
+				<div class="col-md-3">
+					<h2>Urdu</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptates molestiae, saepe modi perspiciatis nesciunt, libero illo consectetur alias pariatur facilis quidem dignissimos, totam tempore unde odit itaque. Dolorum, omnis.</p>
+				</div>
+				<div class="col-md-3">
+					<h2>Vietnamese</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptates molestiae, saepe modi perspiciatis nesciunt, libero illo consectetur alias pariatur facilis quidem dignissimos, totam tempore unde odit itaque. Dolorum, omnis.</p>
+				</div>
+			</div>	
 
-	<div class="row greyslot">
+		</div>	
+		<div class="col-md-6">
+			<div class="row lang-links">
+				<div class="col-md-3">
+					<h2>More languages</h2>
+					<p>
+						<ul>
+							<li><a href="">Arabic</a></li>
+							<li><a href="#">Chinese</a></li>
+							<li><a href="#">Chinese</a></li>
+							<li><a href="#">Kyrgyz</a></li>
+							<li><a href="#">Portuguese</a></li>
+							<li><a href="#">Spanish</a></li>
+						</ul>	
+					</p>						
+				</div>
+				<div class="col-md-3">
+					<h2></h2>
+					<p>
+					<ul>
+						<li><a href="">Arabic</a></li>
+						<li><a href="#">Chinese</a></li>
+						<li><a href="#">Chinese</a></li>
+						<li><a href="#">Kyrgyz</a></li>
+						<li><a href="#">Portuguese</a></li>
+						<li><a href="#">Spanish</a></li>
+					</ul>	
+					</p>		
+				</div>
+				<div class="col-md-3">
+					<h2></h2>
+					<p>
+					<ul>
+						<li><a href="">Arabic</a></li>
+						<li><a href="#">Chinese</a></li>
+						<li><a href="#">Chinese</a></li>
+						<li><a href="#">Kyrgyz</a></li>
+						<li><a href="#">Portuguese</a></li>
+						<li><a href="#">Spanish</a></li>
+					</ul>
+					</p>			
+				</div>
+				<div class="col-md-3">
+					<h2></h2>
+					<p>
+					<ul>
+						<li><a href="">Arabic</a></li>
+						<li><a href="#">Chinese</a></li>
+						<li><a href="#">Chinese</a></li>
+						<li><a href="#">Kyrgyz</a></li>
+						<li><a href="#">Portuguese</a></li>
+						<li><a href="#">Spanish</a></li>
+					</ul>
+					</p>			
+				</div>
+			</div>	
+		</div>	
+
+	</div>
+	<!-- <div class="row greyslot">
 		<div class="col-md-2">
 			<h2>Persian</h2>
 			<br /><br />
 			<h2>More Languages</h2>
 			<p>Arabic</p>
 			<p>Chinese</p>
-			<p>Indonesian</p>
+			<p>Chinese</p>
 			<p>Kyrgyz</p>
 			<p>Portuguese</p>
 			<p>Spanish</p>
@@ -368,53 +501,91 @@
 		</div>
 		<div class="col-md-2"></div>
 		<div class="col-md-2"></div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-12">
-			<a href="homepage.html">Home</a></li>
-				<li><a href="travel.html">Travel</a></li>
-				<li><a href="#">Radio</a></li>
-				<li><a href="#">Music</a></li>
-				<li><a href="news.html">News</a></li>
-				<li><a href="capital.html">Capital</a></li>
-				<li><a href="#">CBBC</a></li>
-				<li><a href="#">Arts</a></li>
-				<li><a href="sport.html">Sport</a></li>
-				<li><a href="#">Culture</a></li>
-				<li><a href="#">CBeebies</a></li>
-				<li><a href="#">Make It Digital</a></li>
-				<li><a href="weather.html">Weather</a></li>
-				<li><a href="#">Autos</a></li>
-				<li><a href="#">Food</a></li>
-				<li><a href="#">Taster</a></li>
-				<li><a href="shop.html">Shop</a></li>
-				<li><a href="#">Shop</a></li>
-				<li><a href="#">Future</a></li>
-				<li><a href="#">iWonder</a></li>
-				<li><a href="#">Nature</a></li>
-				<li><a href="earthscience.html">Earth</a></li>
-				<li><a href="#">TV</a></li>
-				<li><a href="#">Bitsize</a></li>
-				<li><a href="#">Local</a></li>
+	</div> -->
+</div>
+	<footer class="bg-dark">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Explore the BBC</h3>
 			</div>
-			<div class="row">
+		</div>
+		<div class="row footer-links-row">	
+			<div class = "col-md-2 footer-links">
 				<ul>
-					<li>Desktop Site</li>
-					<li>Terms of Use</li>
-					<li>About the BBC</li>
-					<li>Privacy Policy</li>
-					<li>Cookies</li>
-					<li>Accessibility Help</li>
-					<li>Parental Guidance</li>
-					<li>Contact the BBC</li>
-					<li>Get Personalised Newsletters</li>
-					<li>Advertise with us</li>
-					<li>Ad choices</li>
+					<li><a href="homepage.html">Home</a></li>
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="#">Radio</a></li>
+					<li><a href="#">Music</a></li>
+				</ul>
+			</div>
+			<div class = "col-md-2 footer-links">
+				<ul>
+					<li><a href="news.html">News</a></li>
+					<li><a href="capital.html">Capital</a></li>
+					<li><a href="#">CBBC</a></li>
+					<li><a href="#">Arts</a></li>
+				</ul>
+			</div>
+			<div class = "col-md-2 footer-links">
+				<ul>
+					<li><a href="sport.html">Sport</a></li>
+					<li><a href="#">Culture</a></li>
+					<li><a href="#">CBeebies</a></li>
+					<li><a href="#">Make It Digital</a></li>
+				</ul>
+			</div>
+			<div class = "col-md-2 footer-links">
+				<ul>
+					<li><a href="weather.html">Weather</a></li>
+					<li><a href="#">Autos</a></li>
+					<li><a href="#">Food</a></li>
+					<li><a href="#">Taster</a></li>
+				</ul>
+			</div>
+			<div class = "col-md-2 footer-links">
+				<ul>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Future</a></li>
+					<li><a href="#">iWonder</a></li>
+				</ul>
+			</div>
+			<div class = "col-md-2 footer-links">
+				<ul>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Future</a></li>
+					<li><a href="#">iWonder</a></li>
+				</ul>
+			</div>
+		</div>	
+
+		<div class="row additional-info">
+			<div class="col-md-12">
+				<ul>
+					<li><a href="#">Desktop Site</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">About the BBC</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Cookies</a></li>
+					<li><a href="#">Accessibility Help</a></li>
+					<li><a href="#">Parental Guidance</a></li>
+					<li><a href="#">Contact the BBC</a></li>
+					<li><a href="#">Get Personalised Newsletters</a></li>
+					<li><a href="#">Advertise with us</a></li>
+					<li><a href="#">Ad choices</a></li>
 				</ul>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-12">
+				Copyright © 2017. _____ is not responsible for the content of external sites. Read about our approach to external linking.
+			</div>
+			
+		</div>
+	</div>
+
+	</footer>	
 	
--->
 </body>
 </html>
